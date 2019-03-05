@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf")
+    format("truetype");
+}
+@font-face {
+    font-family: "Barlow-Light";
+    src: url("fonts/Barlow_Condensed/BarlowCondensed-LightItalic.ttf")
+    format("truetype");
+}
+@font-face {
+    font-family: "Linearicons";
+    src: url("fonts/Linearicons.ttf") format("truetype");
+}
+
+html, body{
+    height: 100%; 
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px; 
+} 
+
+.h2{
+    font-family: "Barlow", sans-serif;
+    font-size: 34px; 
+    color: #005971;
+}
+.h3{
+    font-family: "Barlow", sans-serif;
+    font-size: 26px; 
+    color: #005971;
+}
+.h4{
+    font-family: "Barlow", sans-serif;
+    font-size: 20px; 
+    color: #005971;
+}
+
+#healthBlock{
+        background-color: #54B554;
+        width: 61px;
+        height: 24px;
+        color: white;
+        font-size: 12px;
+        font-weight: lighter;
+        text-align: center;
+        padding: 4px;
+}
+#heroTitle{
+    color: white;
+    font-size: 34px;
+    font-family: "Barlow";
+}
+.jumbotron{
+    background-image: url("img/image.jpeg");
+    
+} 
+img{
+    width: 100%;
+    height: 100%;
+} 
+#readingTime{
+    color: white;
+} 
+/* Hr Bar */
+#articleTop{
+background-color: #54B554;
+margin-top: 1rem;
+margin-bottom: 1rem;
+border: 0;
+border-top: 2px solid rgba(0,0,0,.1);
+width: 355px;
+} 
+
+#articleBy{
+    font-size: 14px;
+}
+#weight-light{
+    font-weight: lighter;
+} 
+#blockquote{
+    font-family: "Barlow-Light", sans-serif;
+    font-size: 30px;
+    color: #A3A3A3;
+}
+
