@@ -135,7 +135,49 @@ width: 342px;
 color: #005971;
 margin: 1rem;
 } 
+#send{
+  color: white;
+  border: 2px solid #004155;
+  border-radius: 50%;
+  background-color: #004155;
+  padding: .7rem;
+  align-self: flex-end;
+  margin-left: 0;
+  align-self: flex-end;
+  margin-left: 0;
+}
 
+.options-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+#numbers{
+  width: 55.31px;
+  height: 37px;
+}
+
+.answer{
+  display: flex;
+  justify-content: space-between;
+
+}
+.answer p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: rgb(134, 133, 133)
+}
+#textmsg2{
+  display: flex;
+}
+#textanswer{
+  width: 298px;
+  height: 141px;
+  font-size: 16px;
+  color: rgb(134, 133, 133)
+
+}
 
 
 /* *************************************************************************** */
