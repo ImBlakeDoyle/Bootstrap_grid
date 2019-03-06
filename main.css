@@ -130,11 +130,11 @@ width: 342px;
     height: 217px;
     margin-right: 1rem;
 }
- 
-.fas{
-color: #005971;
-margin: 1rem;
-} 
+#quote{
+  margin:1rem;
+  color: #005971; 
+}
+
 #send{
   color: white;
   border: 2px solid #004155;
@@ -172,13 +172,20 @@ margin: 1rem;
   display: flex;
 }
 #textanswer{
-  width: 298px;
-  height: 141px;
+  
   font-size: 16px;
+  text-align: left;
   color: rgb(134, 133, 133)
-
+} 
+.message-inner{
+      margin: 0 0 1rem;
 }
-
+#list{
+  padding-left: 13px;
+}
+#arrowBullet{
+  margin-right: 8px;
+}
 
 /* *************************************************************************** */
 
