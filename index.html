@@ -18,10 +18,8 @@
   <body>
     
   <!--JUMBOTRON-->
-
-  <div class="infusr-chat chat_task_container chat taskable_container">
-    <div class="messages">
-
+    <article>
+  <div class="top-half">
   <div class="jumbotron">
       <h3 class="lead" id="healthBlock">#health</h3>
       <h1 class="display-4" id="heroTitle">5 WAYS TO CHANGE YOUR OUTLOOK ON LIFE</h1>
@@ -33,7 +31,7 @@
       <img src="img/med_heart.png" id="heart-icon">
     </div>
     <div>
-      <p id="articleBy"> Article by <b>Driven</b></p>
+      <p id="articleBy"> Article by <b id="bold">Driven</b></p>
     </div>
     <div>
       <img src="img/share.png" id="share-icon">
@@ -52,13 +50,13 @@
       <h2 class="h2">H2 Heading Style</h2>
     </div>
     <div>
-      <p>Running a workplace resilience training program is high on the agenda for many top organisations. More and more we hear from businesses who recognise the benefit of building a resilient workforce. <b>Bold text in a paragraph.</b> After all, here are some of the quantifiable benefits of resilient people we have</p>
+      <p>Running a workplace resilience training program is high on the agenda for many top organisations. More and more we hear from businesses who recognise the benefit of building a resilient workforce. <b id="bold">Bold text in a paragraph.</b> After all, here are some of the quantifiable benefits of resilient people we have</p>
     </div>
     <div>
       <ul class="fa-ul"> 
-        <li><i class="fa-li fas fa-caret-right"></i><b>$6,152</b> annual per employee saving through investing in a resilience program</li>
-        <li><i class="fa-li fas fa-caret-right"></i><b>83% higher job satisfaction</b> for staff with high resilience</li>
-        <li><i class="fa-li fas fa-caret-right"></i><b>43% less likely to leave</b> - drastically improved retention</li>
+        <li><i class="fa-li fas fa-caret-right"></i><b id="bold">$6,152</b> annual per employee saving through investing in a resilience program</li>
+        <li><i class="fa-li fas fa-caret-right"></i><b id="bold">83% higher job satisfaction</b> for staff with high resilience</li>
+        <li><i class="fa-li fas fa-caret-right"></i><b id="bold">43% less likely to leave</b> - drastically improved retention</li>
       </ul>
     </div>
   </div>
@@ -91,7 +89,8 @@
   <div>
     <!-- INSERT IMAGE FOR QUOTATION MARKS -->
     <blockquote id="blockquote">
-      <i class="fas fa-quote-left" id="quote"></i>
+      <!-- <i class="fas fa-quote-left" id="quote"></i> -->
+      <img src="img/quotes.png" id="quote">
       <p>Equipping staff with skills to build better personal relationships have a real benefit that flows </p>
     </blockquote>
   </div>
@@ -100,16 +99,21 @@
     <p><a href ="#">Link in a paragraph.</a> Running a workplace resilience training program is high on the agenda for many top organisations.</p>
   </div>
 
-  <div>
-    <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
-      <div class="message-inner">
-      How often do you tend to look at pictures of dogs?
+  <div class="infusr-chat chat_task_container chat taskable_container">
+    <div class="messages">
+      <div>
+        <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
+          <div class="message-inner">
+          How often do you tend to look at pictures of dogs?
+          </div>
+        </div>
+        <div class="message message-user message-standard message-clickable animated fadeIn message-old" id="msg-d409">
+          <div class="message-inner">
+          😅 Twice a day
+          </div>
+        </div>
       </div>
     </div>
-  
-      <div class="message message-user message-standard message-clickable animated fadeIn message-old" id="msg-d409">
-          <div class="message-inner">😅 Twice a day</div>
-      </div>
   </div>
 
   <div>
@@ -124,32 +128,33 @@
     <p>Running a workplace resilience training program is high on the agenda for many top organisations</p>
   </div>
 
-  <div>
-    <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
-      <div class="message-inner">
-      How often do you tend to look at pictures of dogs?
-      </div>
-    </div>
 
-
-  <div class="input-box category_single_choice">
-    <div class="input-box-center">
-      <div class="message message-input message-user">
-        <div class="message-inner">
-          <div class="options">
-            <div class="message-option">Every day</div>
-            <div class="message-option">😅 Twice a day</div>
-            <div class="message-option">Not often, probably around once a month, it's not something I keep track of 💖</div>
+  <div class="infusr-chat chat_task_container chat taskable_container">
+    <!-- <div class="messages"> -->
+        <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
+          <div class="message-inner">
+          How often do you tend to look at pictures of dogs?
+          </div>
+        </div>
+      <div class="input-box category_single_choice">
+        <div class="input-box-center">
+          <div class="message message-input message-user">
+            <div class="message-inner">
+              <div class="options">
+                <div class="message-option">Every day</div>
+                <div class="message-option">😅 Twice a day</div>
+                <div class="message-option">Not often, probably around once a month, it's not something I keep track of 💖</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    <!-- </div> -->
   </div>
 
-    <div>
+  <div>
       <p>Running a workplace resilience training program is high on the agenda for many top organisations.</p>
-    </div>
+  </div>
   <div class="split"> 
     <div>
       <p id="split-text">Running a workplace resilience training program is high on the agenda for many top organisations. More and more we hear from businesses who recognise the benefit of building a resilient workforce.</p>
@@ -170,17 +175,18 @@
   </div>
 
 
-    <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
-      <div class="message-inner">
+  <div class="infusr-chat chat_task_container chat taskable_container">
+    <!-- <div class="messages"> -->
+      <div class="message message-agent message-standard animated fadeIn message-old" id="fieldtest">
+        <div class="message-inner">
         Do you look at pictures of dogs all the time?🐕🐶🐩
+        </div>
       </div>
-    </div>
-
-    <div class="answer">
-      <p>Strongly disagree</p>
-      <p>Strongly agree</p>
-    </div>
-    <div class="input-box category_single_choice">
+      <div class="answer">
+        <p>Strongly disagree</p>
+        <p>Strongly agree</p>
+      </div>
+      <div class="input-box category_single_choice">
         <div class="input-box-center">
           <div class="message message-input message-user">
             <div class="message-inner">
@@ -198,198 +204,97 @@
         </div>
       </div>
 
-  <div>
-    <div>
-      <p id="grey-text">What would you like to say?</p>
-    </div>
-    <div class="input-box category_single_choice">
-      <div class="input-box-center">
-        <div class="message message-input message-user">
-          <div class="message-inner">
-            <div class="options" id="textmsg2">
-              <div class="message-option" id="textanswer">Type a message</div>
-              <i class="fas fa-paper-plane" id="send"></i>
+      <div>
+        <div>
+          <p id="grey-text">What would you like to say?</p>
+        </div>
+        <div class="input-box category_single_choice" id="fieldtest">
+          <div class="input-box-center">
+            <div class="message message-input message-user">
+              <div class="message-inner">
+                <div class="options" id="textmsg2">
+                  <div class="message-option" id="textanswer">Type a message</div>
+                  <i class="fas fa-paper-plane" id="send"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-  </div>
-  </div>
 
-  <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
-    <div class="message-inner">
-      Tell me a long story👵
-    </div>
-  </div>
-  <div class="input-box category_single_choice">
-      <div class="input-box-center">
-        <div class="message message-input message-user">
-          <div class="message-inner">
-            <div class="options" id="textmsg2">
-              <div class="message-option" id="textanswer">More and more we hear from businesses who recognise the benefit of building a resilient workforce. After all, here are some of the quantifiable benefits of</div>
-              <i class="fas fa-paper-plane" id="send"></i>
-            </div>
-          </div>
+      <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
+        <div class="message-inner">
+          Tell me a long story👵
         </div>
       </div>
-  </div>
+      <div class="input-box category_single_choice" id="fieldtest">
+          <div class="input-box-center">
+            <div class="message message-input message-user">
+              <div class="message-inner">
+                <div class="options" id="textmsg2">
+                  <div class="message-option" id="textanswer">More and more we hear from businesses who recognise the benefit of building a resilient workforce. After all, here are some of the quantifiable benefits of</div>
+                  <i class="fas fa-paper-plane" id="send"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
   
 
-  <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
-      <div class="message-inner">
+      <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
+        <div class="message-inner">
           What's your password?🔐
         </div>
-    </div>
-
-  <div>
-    <div>
-    </div>
-    <div class="input-box category_single_choice">
-      <div class="input-box-center">
-        <div class="message message-input message-user">
-          <div class="message-inner">
-            <div class="options" id="textmsg2">
-              <div class="message-option" id="textanswer"><i class="fas fa-lock"></i>******</div>
-              <i class="fas fa-paper-plane" id="send"></i>
+      </div>
+      <div>
+        <div class="input-box category_single_choice" id="fieldtest">
+          <div class="input-box-center">
+            <div class="message message-input message-user">
+              <div class="message-inner">
+                <div class="options" id="password-field">
+                    <div class="input-box-left">
+                      <input type="password" class="form-control chat-textbox" id="inputPassword3" placeholder="Password">
+                    </div>
+                  <i class="fas fa-paper-plane" id="send"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    <!-- </div> -->
   </div>
-  </div>
-
-    <div>
-      <p>Running a workplace resilience training program is high on the agenda for many top organisations. More and more we hear from businesses who recognise the benefit of building a resilient workforce. After all, here are some of the quantifiable benefits of resilient people we have seen through our research:</p>
-    </div>
-    <div>
-      <ul class="fa-ul"> 
-        <li><i class="fa-li">1.</i><b>$6,152</b> annual per employee saving through investing in a resilience program</li>
-        <li><i class="fa-li">2.</i><b>83% higher job satisfaction</b> for staff with high resilience</li>
-        <li><i class="fa-li">3.</i><b>43% less likely to leave</b> - drastically improved retention</li>
-      </ul>
-    </div>
-  
-
-
-    <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
-      <div class="message-inner">
-        How often do you tend to look at pictues of dogs?
-      </div>
-    </div>
-
-    <div class="message message-user message-standard message-clickable animated fadeIn message-old" id="msg-d409">
-      <div class="message-inner">😅 Twice a day</div>
-  </div>
-
-
 
   <div>
+    <p>Running a workplace resilience training program is high on the agenda for many top organisations. More and more we hear from businesses who recognise the benefit of building a resilient workforce. After all, here are some of the quantifiable benefits of resilient people we have seen through our research:</p>
+  </div>
+  <div>
+    <ol> 
+      <li><i class="fa-li"></i><b id="bold">$6,152</b> annual per employee saving through investing in a resilience program</li>
+      <li><i class="fa-li"></i><b id="bold">83% higher job satisfaction</b> for staff with high resilience</li>
+      <li><i class="fa-li"></i><b id="bold">43% less likely to leave</b> - drastically improved retention</li>
+    </ol>
+  </div>
+  
+
+  <div class="infusr-chat chat_task_container chat taskable_container">
+      <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
+        <div class="message-inner">
+        How often do you tend to look at pictues of dogs?
+        </div>
+      </div>
+      <div class="message message-user message-standard message-clickable animated fadeIn message-old" id="msg-d409">
+        <div class="message-inner">
+        😅 Twice a day
+        </div>
+      </div>
+  </div>
+
+  <div id="footer-image">
     <img src="img/image.jpeg">
   </div>
 
-</div>
-</div>
-
-
-************************** 
-
-
-for tomorrow: 
-
-wrap everything in article tag, 
-only use 
-<!-- <div class="infusr-chat chat_task_container chat taskable_container">
-  <div class="messages"> --> for text interactions, 
-correct spacing  overall (img and underneath text), 
-import correct quote tag like we did with the heart,  
-correct password text field....maybe use bootstrap one and style it with lock, 
-luca will send over the css for text input fields 
-
-
-<div class="infusr-chat chat_task_container chat taskable_container" data-task-id="" data-url="/activities/141?chat=1">
-  <div class="messages">
-    <div class="message message-placeholder" style="opacity: 0; padding: 0px; margin: 0px; height: 555px;"></div>
-    <div class="history-loader" style="display: none;"><span><i class="fa fa-spinner fa-spin"></i> Retrieving history...</span></div>
-    <div class="message message-agent message-standard animated fadeIn message-old" id="msg-6aa2">
-      <div class="message-inner"><span class="big">
-          <span class="big">
-            <strong>
-              How are you doing?
-            </strong>
-          </span></span></div>
-    </div>
-    <div class="message message-user message-standard message-clickable animated fadeIn message-old" id="msg-d409">
-      <div class="message-inner"><span class="emoji">😁</span><span class="hidden-xs hidden-sm"> Great!</span></div>
-    </div>
-    <div class="message message-agent message-standard animated fadeIn message-old" id="msg-1ae2">
-      <div class="message-inner">Fantastic! Shall we get back to the course?</div>
-    </div>
-    <div class="message message-agent message-standard animated fadeIn message-far-next message-old" id="msg-ac15">
-      <div class="message-inner"><span class="big">
-          <span class="big">
-            <strong>
-              How are you doing?
-            </strong>
-          </span></span></div>
-    </div>
-    <div class="date-separator"><span><strong>Thursday</strong> 11:51am</span></div>
-    <div class="message message-user message-standard message-clickable animated fadeIn message-far-prev message-last5" id="msg-d6b5">
-      <div class="message-inner"><span class="emoji">😁</span><span class="hidden-xs hidden-sm"> Great!</span></div>
-    </div>
-    <div class="message message-agent message-standard animated fadeIn message-old" id="msg-56e1">
-      <div class="message-inner">Fantastic! Shall we get back to the course?</div>
-    </div>
-    <div class="message message-user message-standard message-clickable animated fadeIn message-last4" id="msg-7c5d">
-      <div class="message-inner"><span class="emoji">👉</span> Yes, let's go!</div>
-    </div>
-    <div class="message message-agent message-standard animated fadeIn message-last5" id="msg-cddb">
-      <div class="message-inner">Awesome!</div>
-    </div>
-    <div class="message message-agent message-standard message-last4" id="msg-f038">
-      <div class="message-inner"><span class="big">
-          <span class="big">
-            <strong>
-              How are you doing?
-            </strong>
-          </span></span></div>
-    </div>
-    <div class="message message-user message-standard message-clickable message-last3" id="msg-d8ce">
-      <div class="message-inner" style="opacity: 1;"><span class="emoji">😐</span><span class="hidden-xs hidden-sm"> So so</span></div>
-    </div>
-    <div class="message message-agent message-standard message-last3" id="msg-2888">
-      <div class="message-inner">Is everything ok?</div>
-    </div>
-    <div class="message message-user message-standard message-clickable message-last2" id="msg-516e">
-      <div class="message-inner" style="opacity: 1;"><span class="emoji">😓</span> Just dealing with some things</div>
-    </div>
-    <div class="message message-agent message-standard message-last2" id="msg-554a">
-      <div class="message-inner">What's it about?</div>
-    </div>
-    <div class="message message-user message-standard message-clickable message-last" id="msg-4cfd">
-      <div class="message-inner" style="opacity: 1;">Work stress</div>
-    </div>
-    <div class="message message-agent message-standard message-last" id="msg-0c2d">
-      <div class="message-inner">Want to talk about it? I'm always here to listen!</div>
-    </div>
-  </div>
-  <div class="input-box-holder">
-    <div class="input-box-container fixed-container ">
-      <div class="input-box category_single_choice">
-        <div class="input-box-left"></div>
-        <div class="input-box-center">
-          <div class="message message-input message-user">
-            <div class="message-inner">
-              <div class="options"><a href="#" class="message-option" data-name="answer_part" data-value="0" data-editurl="/activities/141/tasks/1140/task_completions?rollback=true"><span class="emoji">💬</span> Ok, I'll tell you about it</a><a href="#"
-                  class="message-option" data-name="answer_part" data-value="1" data-editurl="/activities/141/tasks/1140/task_completions?rollback=true"><span class="emoji">👉</span> I'm ok. Let's get back to the course</a><a href="#" class="message-option"
-                  data-name="answer_part" data-value="2" data-editurl="/activities/141/tasks/1140/task_completions?rollback=true"><span class="emoji">🏝</span> Can you give me something to relax?</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="input-box-right"><button type="submit" class="chat-btn btn btn-primary" disabled="disabled" style="display: none;"><i class="fa fa-paper-plane fa-fw" aria-hidden="true"></i></button></div>
-      </div>
-    </div>
-  </div>
-</div>
+</article>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -26,6 +26,10 @@ body{
     
 } 
 
+.top-half{
+  margin: 0 1rem 0 1rem;
+}
+
 .h2{
     font-family: "Barlow", sans-serif;
     font-size: 34px; 
@@ -41,6 +45,9 @@ body{
     font-size: 20px; 
     color: #005971;
 } 
+#bold{
+  color: #000000;
+}
 
 #healthBlock{
         background-color: #54B554;
@@ -59,12 +66,13 @@ body{
 }
 .jumbotron{
     background-image: url("img/image.jpeg");
-    margin: 0 -10px 25px -10px;  
+    margin: 0 -15px 25px -15px;  
     border-radius: 0; 
 } 
 img{
     width: 100%;
     height: 100%;
+
 
 } 
 #heart-icon{
@@ -106,10 +114,9 @@ width: 342px;
     font-size: 30px;
     color: #A3A3A3;
     display: flex;
-    align-items: baseline;
 }
 .page-image{
-    margin: 0 -10px 0px -10px;
+    margin: 0 -15px 28px -15px;
 }
 
 #subheading{
@@ -132,7 +139,12 @@ width: 342px;
 }
 #quote{
   margin:1rem;
-  color: #005971; 
+  width: 40.52px;
+  height: 37px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 7px
+
 }
 
 #send{
@@ -161,6 +173,7 @@ width: 342px;
 .answer{
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 
 }
 .answer p {
@@ -170,23 +183,42 @@ width: 342px;
 }
 #textmsg2{
   display: flex;
+  margin-top: 10px;
 }
 #textanswer{
   
   font-size: 16px;
   text-align: left;
-  color: rgb(134, 133, 133)
+  color: rgb(134, 133, 133);
+  width:100%;
+  padding-bottom: 8px;
+  margin-right: 5px;
+  margin-bottom: 0.7rem;
+  margin-left: 0;
 } 
-.message-inner{
-      margin: 0 0 1rem;
-}
 #list{
   padding-left: 13px;
 }
 #arrowBullet{
   margin-right: 8px;
 }
-
+#password-field{
+  display: flex;
+  margin-top: 10px;
+}
+.input-box-left{
+  width: 100%;
+  margin-right: 5px;
+}
+#inputPassword3{
+  margin-right: 10px;
+}
+#fieldtest{
+  padding: 0;
+}
+#grey-text{
+  margin: 0;
+}
 /* *************************************************************************** */
 
 
@@ -196,11 +228,11 @@ width: 342px;
      --------------------*/
     background-color: #fff;
     margin: 0;
-    padding: 0 0 40px 0;
+    padding: 0 0 20px 0;
     /* Same as height of fixed input box */
-    margin-top: 60px;
+    margin-top: 20px;
     /* Same as heigth of the fixed navbar */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     /*--------------------
      Messages
      --------------------*/
