@@ -26,11 +26,15 @@ body{
 .top-half{
   margin: 0 1rem 0 1rem;
 }
+.nav-header{
+  height: 50px;
+}
 
 .h2{
     font-family: "Barlow", sans-serif;
     font-size: 34px; 
     color: #005971;
+    display: inline-block;
 }
 .h3{
     font-family: "Barlow", sans-serif;
@@ -73,7 +77,7 @@ body{
 } 
 .header-text{
   position: absolute;
-  top: 41px;  
+  top: 91px;  
 }
 
 
@@ -81,6 +85,7 @@ img{
     width: 100%;
     height: 100%;
 } 
+
 #heart-icon{
     width: 40px;
     height: 40px;
@@ -130,18 +135,12 @@ width: 342px;
     align-items: center;
     justify-content: space-around;
 } 
-.split{
-    display: flex;
-    justify-content: space-between;
-}
-#split-text{
-    margin-top: 0px;
-    margin-right: 2rem;
-}
+
 #split-img{
     width: 161px;
     height: 217px;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
+    float: right;
 }
 #quote{
   margin:1rem;
