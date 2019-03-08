@@ -91,8 +91,7 @@ img{
 } 
 #subheading{
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: baseline;
 } 
 #heart-icon{
     width: 40px;
@@ -101,6 +100,7 @@ img{
 #share-icon{
     width: 18.24px;
     height: 18.33px;
+    margin-left: 2rem;
 }
 #dots-icon{
     width: 21px;
@@ -118,6 +118,7 @@ img{
     width: 241px;
     height: 20px;
     margin: 0; 
+    margin-left: -0.5rem;
     
 }
 #blockquote{
