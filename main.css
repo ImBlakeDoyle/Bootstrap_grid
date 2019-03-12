@@ -200,6 +200,7 @@ img{
   margin-right: 5px;
   margin-bottom: 0.7rem;
   margin-left: 0;
+  height: 100%;
 } 
 #list{
   padding-left: 13px;
@@ -256,8 +257,8 @@ img{
     top: 141px;
   }
 
-  #top-text{
-    display: none;
+  #heroTitle{
+    font-size: 80px;
   }
 
   #healthBlock{
@@ -265,7 +266,6 @@ img{
     width: 71px; 
     height: 28px;
     left: 15px;
-    /* border: 1px solid black; */
   }
   
   #readingTime{
@@ -276,9 +276,29 @@ img{
     padding-left: 1rem;
   }
 
+<<<<<<< HEAD
   #share-icon{
     display: none;
   } 
+=======
+  #subheading{
+    float: left;
+    border-bottom: 2px solid rgb(50, 156, 50);
+    height: 70px;
+  }
+
+  #share-icon{
+    display: none;
+  }
+
+  hr{
+    display: none;
+  }
+
+  #top-text{
+    display: none;
+  }
+>>>>>>> e2064bc4aae2dc2f7ed6b6295333f9c972f199c9
  
   #split-img{
     float: left;
@@ -293,7 +313,6 @@ img{
   }
 
   #desktop-image{
-    /* height: 200px; */
     width: 366px;
     height: 337px;
     float: left;
@@ -301,27 +320,8 @@ img{
     margin-bottom: 2rem;
   }
 
-  #spacing{
-    margin-bottom: 800px;
-  }
-
-  #subheading{
-    float: left;
-    border-bottom: 2px solid rgb(50, 156, 50);
-    height: 70px;
-    margin-right: 30px;
-  }
-
-  hr{
-    display: none;
-  }
-
   #blockquote{
     font-size: 50px;
-  }
-
-  #heroTitle{
-    font-size: 60px;
   }
 
   .options-list{
@@ -338,7 +338,23 @@ img{
     width: 100px;
   }
 
+<<<<<<< HEAD
   /* #footer-image{
+=======
+  #textmsg2{
+    display: flex;
+  }
+
+  #long-text{
+    margin-right: 5px;
+  }
+
+  #short-text{
+    margin-right: 5px;
+  }
+
+  #footer-image{
+>>>>>>> e2064bc4aae2dc2f7ed6b6295333f9c972f199c9
     display: none;
   } */
 
@@ -827,7 +843,6 @@ img{
   }
   @media (min-width: 1200px) {
     .infusr-chat .input-box {
-      /* width: 100%; */
       /* width: 66.66667%; */
       /* margin-left: 16.66667%; */
     }
