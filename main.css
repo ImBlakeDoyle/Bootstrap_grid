@@ -46,7 +46,7 @@ body{
     color: #005971;
 } 
 #bold{
-  color: #000000;
+  font-weight: 800;
 }
 
 
@@ -72,10 +72,10 @@ body{
   color: white;
   font-size: 12px;
   font-weight: lighter;
-  text-align: center;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
+  align-items: center;
   left: 15px;
 }
 #heroTitle{
@@ -244,6 +244,16 @@ img{
 
 }
 
+@media(min-width: 768px){
+  #heroTitle{
+    font-size: 46px;
+  }
+
+  #readingTime{
+    font-size: 19px;
+  }
+}
+
 @media (min-width: 1920px){
   body{
     font-size: 18px;
@@ -276,11 +286,6 @@ img{
     padding-left: 1rem;
   }
 
-<<<<<<< HEAD
-  #share-icon{
-    display: none;
-  } 
-=======
   #subheading{
     float: left;
     border-bottom: 2px solid rgb(50, 156, 50);
@@ -298,7 +303,6 @@ img{
   #top-text{
     display: none;
   }
->>>>>>> e2064bc4aae2dc2f7ed6b6295333f9c972f199c9
  
   #split-img{
     float: left;
@@ -338,9 +342,6 @@ img{
     width: 100px;
   }
 
-<<<<<<< HEAD
-  /* #footer-image{
-=======
   #textmsg2{
     display: flex;
   }
@@ -354,7 +355,6 @@ img{
   }
 
   #footer-image{
->>>>>>> e2064bc4aae2dc2f7ed6b6295333f9c972f199c9
     display: none;
   } */
 
