@@ -248,6 +248,9 @@ img{
   #heroTitle{
     font-size: 46px;
   }
+    #jumbotron{
+      height: 275px;
+    }
 
   #readingTime{
     font-size: 19px;
