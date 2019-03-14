@@ -18,18 +18,22 @@
 } */
 
 body{
-    /* height: 100%; 
-    width: 100%; */
     font-family: "Roboto", sans-serif;
     font-size: 16px; 
-    /* margin: 0 1rem 0 1rem; */
-    
 } 
+
+.top-half{
+  margin: 0 1rem 0 1rem;
+}
+.nav-header{
+  height: 50px;
+}
 
 .h2{
     font-family: "Barlow", sans-serif;
     font-size: 34px; 
     color: #005971;
+    display: inline-block;
 }
 .h3{
     font-family: "Barlow", sans-serif;
@@ -41,64 +45,83 @@ body{
     font-size: 20px; 
     color: #005971;
 } 
+#bold{
+  font-weight: 800;
+}
 
+
+#jumbotron{
+  opacity: 0.5;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("img/image.jpeg");
+  margin-bottom: 25px; 
+  border-radius: 0; 
+  height: 214px;
+  padding: 0;
+} 
+#header-text{ 
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45px;
+  /* padding: 0; */
+}
 #healthBlock{
-        background-color: #54B554;
-        width: 61px;
-        height: 24px;
-        color: white;
-        font-size: 12px;
-        font-weight: lighter;
-        text-align: center;
-        padding: 4px;
+  background-color: #54B554;
+  width: 61px;
+  height: 24px;
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  left: 15px;
 }
 #heroTitle{
-    color: white;
-    font-size: 34px;
-    font-family: "Barlow";
+  color: white;
+  font-size: 34px;
+  font-family: "Barlow";
+  text-shadow: 1px 1px black;
 }
-.jumbotron{
-    background-image: url("img/image.jpeg");
-    margin: 0 -10px 25px -10px;  
-    border-radius: 0; 
+#readingTime{
+  color: white;
 } 
+
 img{
     width: 100%;
     height: 100%;
-
+} 
+#subheading{
+  display: flex;
+  align-items: baseline;
 } 
 #heart-icon{
     width: 40px;
     height: 40px;
-    margin: 0 10px 0 0;
 }
 #share-icon{
     width: 18.24px;
     height: 18.33px;
+    /* margin-left: 2rem; */
 }
 #dots-icon{
     width: 21px;
     height: 21px;
 }
-#readingTime{
-    color: white;
-} 
+
 /* Hr Bar */
 #articleTop{
-background-color: rgb(50, 156, 50);
-margin-top: 1rem;
-margin-bottom: 1rem;
-margin-left: 0rem;
-border: 0;
-border-top: 2px solid rgba(0,0,0,.1);
-width: 342px;
+  background-color: rgb(50, 156, 50);
+  border-top: 2px solid rgba(0,0,0,.1);
 } 
 
 #articleBy{
     font-size: 14px;
-    width: 241px;
+    width: 160px;
     height: 20px;
     margin: 0; 
+    margin-left: -0.5rem;
     
 }
 #blockquote{
@@ -106,35 +129,27 @@ width: 342px;
     font-size: 30px;
     color: #A3A3A3;
     display: flex;
-    align-items: baseline;
 }
 .page-image{
-    margin: 0 -10px 0px -10px;
-}
-
-#subheading{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  margin: 0 -16px 28px -16px;
 } 
-.split{
-    display: flex;
-    justify-content: space-between;
-}
-#split-text{
-    margin-top: 0px;
-    margin-right: 2rem;
-}
+
 #split-img{
     width: 161px;
     height: 217px;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
+    float: right;
 }
- 
-.fas{
-color: #005971;
-margin: 1rem;
-} 
+#quote{
+  margin:1rem;
+  width: 40.52px;
+  height: 37px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 7px
+
+}
+
 #send{
   color: white;
   border: 2px solid #004155;
@@ -153,7 +168,7 @@ margin: 1rem;
     padding: 0;
 }
 
-#numbers{
+.numbers{
   width: 55.31px;
   height: 37px;
 }
@@ -161,6 +176,7 @@ margin: 1rem;
 .answer{
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 
 }
 .answer p {
@@ -170,17 +186,338 @@ margin: 1rem;
 }
 #textmsg2{
   display: flex;
+  margin-top: 10px;
 }
 #textanswer{
-  width: 298px;
-  height: 141px;
+  
   font-size: 16px;
-  color: rgb(134, 133, 133)
+  text-align: left;
+  color: rgb(134, 133, 133);
+  width:100%;
+  padding-bottom: 8px;
+  margin-right: 5px;
+  margin-bottom: 0.7rem;
+  margin-left: 0;
+  height: 100%;
+} 
+#list{
+  padding-left: 13px;
+}
+#arrowBullet{
+  margin-right: 8px;
+}
+#password-field{
+  display: flex;
+  margin-top: 10px;
+}
+.input-box-left{
+  width: 100%;
+  margin-right: 5px;
+}
+#inputPassword3{
+  margin-right: 10px;
+}
+#fieldtest{
+  padding: 0;
+}
+#grey-text{
+  margin: 0;
+}
 
+#agreement{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+} 
+
+#desktop-image{
+  margin-bottom: 2rem;
 }
 
 
+
+.message-animating{
+  background-color: #00739c;
+    border: 1px solid #00739c;
+    color: #fff;  
+}
+
+@media(min-width: 576px){
+  #heroTitle{
+    font-size: 39px;
+  } 
+
+  #articleTop{
+    box-sizing: border-box;
+  }
+}
+
+@media(min-width: 768px){
+  #heroTitle{
+    font-size: 55px;
+  }
+    #jumbotron{
+      height: 275px;
+    }
+
+  #readingTime{
+    font-size: 19px;
+  } 
+
+  #agreement{
+    margin: 0.5rem 3rem 0 3rem;
+  }
+
+  .numbers{
+    width: 80px;
+  }
+}
+
+@media (min-width: 992px){
+  body{
+    font-size: 16px;
+  }
+
+  #jumbotron{
+    height: 481px;
+  }
+
+  #header-text{
+    top: 100px;
+  }
+
+  #heroTitle{
+    font-size: 60px;
+  }
+
+  #healthBlock{
+    font-size: 14px;
+    width: 71px; 
+    height: 28px;
+    left: 15px;
+  }
+  
+  #readingTime{
+    font-size: 14px;
+  }
+
+  #articleBy{
+    padding-left: 0.8rem;
+    width: 120px;
+    font-size: 14px;
+  }
+
+  #subheading{
+    float: left;
+    border-bottom: 2px solid rgb(50, 156, 50);
+    height: 50px;
+    padding: 0;
+  }
+  #share-test{
+    display: none;
+  }
+
+  #test-heart{
+    padding-left: 0;
+  }
+  #heart-icon{
+    height: auto;
+    width: 30px; 
+    
+  }
+  #test-dots{
+    padding: 0;
+  }
+
+  #share-icon{
+    display: none;
+  }
+
+  hr{
+    display: none;
+  }
+ 
+  #split-img{
+    float: left;
+    padding-right: 15px;
+  }
+
+  #desktop-image{
+    width: 366px;
+    height: 337px;
+    float: left;
+    padding-right: 40px;
+    margin-bottom: 2rem;
+  }
+
+  #blockquote{
+    font-size: 50px;
+  }
+
+  .options-list{
+    justify-content: space-between;
+  }
+
+  #agreement{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 -40px 0;
+    font-size: 16px; 
+    
+  }
+
+  .numbers{
+    width: 100%;
+  }
+
+  #textmsg2{
+    display: flex;
+  }
+
+  #long-text{
+    margin-right: 5px;
+  }
+
+  #short-text{
+    margin-right: 5px;
+  }
+
+  #footer-image{
+    display: none;
+  } 
+
+  #dropdownButton{
+    border-radius: 25px;
+    /* -webkit-box-shadow: none; */
+    width: 500px;
+    box-shadow: none; 
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 1920px){
+  body{
+    font-size: 18px;
+  }
+
+  #jumbotron{
+    height: 481px;
+  }
+
+  #header-text{
+    top: 141px;
+  }
+
+  #heroTitle{
+    font-size: 80px;
+  }
+
+  #healthBlock{
+    font-size: 14px;
+    width: 71px; 
+    height: 28px;
+    left: 15px;
+  }
+  
+  #readingTime{
+    font-size: 14px;
+  }
+
+  #articleBy{
+    padding-left: 1rem;
+  }
+
+  #subheading{
+    float: left;
+    border-bottom: 2px solid rgb(50, 156, 50);
+    height: 70px;
+  }
+
+  #share-icon{
+    display: none;
+  }
+
+  hr{
+    display: none;
+  }
+ 
+   #split-img{
+    float: left;
+    padding-right: 15px;
+  }
+
+  /* #h2-mobile{
+    display: none;
+  }
+
+  #split-mobile{
+    display: none;
+  }  */
+
+  #desktop-image{
+    width: 366px;
+    height: 337px;
+    float: left;
+    padding-right: 40px;
+    margin-bottom: 2rem;
+  }
+
+  #blockquote{
+    font-size: 50px;
+  }
+
+  .options-list{
+    justify-content: space-between;
+  }
+
+  #agreement{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0px 0;
+    
+  }
+
+  .numbers{
+    width: 100px;
+  }
+
+  
+  
+  #textmsg2{
+    display: flex;
+  }
+
+  #long-text{
+    margin-right: 5px;
+  }
+
+  #short-text{
+    margin-right: 5px;
+  }
+
+  #footer-image{
+    display: none;
+  } 
+
+  #dropdownButton{
+    border-radius: 25px;
+    /* -webkit-box-shadow: none; */
+    width: 500px;
+    box-shadow: none; 
+    text-align: left;
+  }
+
+}
+
+@media (max-width: 1919px){
+  /* #h3-desktop{
+    display: none;
+  } */
+}
 /* *************************************************************************** */
+
+
 
 
 .infusr-chat {
@@ -189,11 +526,11 @@ margin: 1rem;
      --------------------*/
     background-color: #fff;
     margin: 0;
-    padding: 0 0 40px 0;
+    padding: 0 0 20px 0;
     /* Same as height of fixed input box */
-    margin-top: 60px;
+    margin-top: 20px;
     /* Same as heigth of the fixed navbar */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     /*--------------------
      Messages
      --------------------*/
@@ -218,21 +555,22 @@ margin: 1rem;
       margin-top: 50px;
       width: 100%;
       margin-left: 0;
-      border-right: solid 1px #eee;
-      border-left: solid 1px #eee;
+      /* border-right: solid 1px #eee; */
+      /* border-left: solid 1px #eee; */
     }
   }
   @media (min-width: 992px) {
     .infusr-chat {
       margin-top: 60px;
-      width: 83.33333%;
-      margin-left: 8.33333%;
+      /* width: 83.33333%; */
+      /* margin-left: 8.33333%; */
     }
   }
   @media (min-width: 1200px) {
     .infusr-chat {
-      width: 66.66667%;
-      margin-left: 16.66667%;
+      /* width: 66.66667%; */
+      /* width: 100%; */
+      /* margin-left: 16.66667%; */
     }
   }
   .infusr-chat .messages {
@@ -635,20 +973,20 @@ margin: 1rem;
     .infusr-chat .input-box {
       width: 100%;
       margin-left: 0;
-      border-right: solid 1px #eee;
-      border-left: solid 1px #eee;
+      /* border-right: solid 1px #eee;
+      border-left: solid 1px #eee; */
     }
   }
   @media (min-width: 992px) {
     .infusr-chat .input-box {
-      width: 83.33333%;
-      margin-left: 8.33333%;
+      /* width: 83.33333%; */
+      /* margin-left: 8.33333%; */
     }
   }
   @media (min-width: 1200px) {
     .infusr-chat .input-box {
-      width: 66.66667%;
-      margin-left: 16.66667%;
+      /* width: 66.66667%; */
+      /* margin-left: 16.66667%; */
     }
   }
   .infusr-chat .input-box .input-box-center {
@@ -729,7 +1067,8 @@ margin: 1rem;
     font-weight: 400;
     text-decoration: none;
     color: #008ead;
-    max-width: 48%;
+    /* max-width: 48%; */
+    max-width: 100%;
   }
   @media (max-width: 991px) {
     .infusr-chat .input-box .message-option {
