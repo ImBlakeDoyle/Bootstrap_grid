@@ -306,9 +306,9 @@
             theContent[x].style.opacity = "0";
         }
 
-        let yPos = $(".new-content").position().top;
+        let yPos = ($(".new-content").position().top) - ($(".message-animating").position().top);
         
-        window.scrollTo(0, (yPos-120));
+        window.scrollTo(0, yPos);
       }) 
     </script> 
 
